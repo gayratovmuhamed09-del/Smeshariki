@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260">
+  <defs>
+    <linearGradient id="sk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7ec8ff"/><stop offset="1" stop-color="#ffe3b3"/></linearGradient>
+  </defs>
+  <rect width="400" height="260" fill="url(#sk)"/>
+  <circle cx="80" cy="60" r="28" fill="#fff4c2"/>
+  <!-- облака -->
+  <g fill="#fff" opacity=".9">
+    <g><ellipse cx="250" cy="50" rx="40" ry="14"/><ellipse cx="270" cy="40" rx="24" ry="14"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;40 0;0 0" dur="14s" repeatCount="indefinite"/></g>
+  </g>
+  <!-- холмы-плато -->
+  <path d="M0 170 L60 150 L130 150 L170 120 L260 120 L300 150 L400 150 L400 260 L0 260 Z" fill="#6fcf7f"/>
+  <path d="M0 200 Q100 180 200 195 T400 190 L400 260 L0 260 Z" fill="#4fb36a"/>
+  <!-- ромашки -->
+  <g>
+    <g transform="translate(60 225)"><circle r="6" fill="#fff"/><circle r="2.5" fill="#ffb347"/></g>
+    <g transform="translate(140 235)"><circle r="6" fill="#fff"/><circle r="2.5" fill="#ffb347"/></g>
+    <g transform="translate(240 222)"><circle r="6" fill="#fff"/><circle r="2.5" fill="#ffb347"/></g>
+    <g transform="translate(330 238)"><circle r="6" fill="#fff"/><circle r="2.5" fill="#ffb347"/></g>
+  </g>
+  <!-- дорожка к вершине -->
+  <path d="M200 260 Q190 210 215 180 Q240 150 215 122" stroke="#e8c58a" stroke-width="8" fill="none" stroke-linecap="round" stroke-dasharray="2 10"/>
+  <line x1="215" y1="122" x2="215" y2="92" stroke="#fff" stroke-width="3"/>
+  <path d="M215 94 L240 101 L215 108 Z" fill="#ff5e62"><animateTransform attributeName="transform" type="skewY" values="0;-5;0" dur="1.3s" repeatCount="indefinite"/></path>
+</svg>

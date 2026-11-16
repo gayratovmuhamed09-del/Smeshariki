@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a2b7a"/><stop offset="1" stop-color="#22184f"/></linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8a5a3c"/><stop offset="1" stop-color="#5a3a26"/></linearGradient>
+  </defs>
+  <rect width="400" height="260" fill="url(#wall)"/>
+  <!-- окно с солнцем -->
+  <rect x="260" y="30" width="100" height="80" rx="8" fill="#ffd9a0" opacity=".9"/>
+  <circle cx="310" cy="80" r="20" fill="#ffb347"><animate attributeName="cy" values="85;75;85" dur="5s" repeatCount="indefinite"/></circle>
+  <line x1="310" y1="30" x2="310" y2="110" stroke="#3a2b7a" stroke-width="4"/>
+  <line x1="260" y1="70" x2="360" y2="70" stroke="#3a2b7a" stroke-width="4"/>
+  <!-- стойка с гантелями -->
+  <rect x="30" y="120" width="140" height="8" rx="3" fill="#b5addb"/>
+  <rect x="40" y="128" width="8" height="70" fill="#b5addb"/><rect x="152" y="128" width="8" height="70" fill="#b5addb"/>
+  <g fill="#ff5e62"><rect x="50" y="104" width="10" height="16" rx="3"/><rect x="80" y="104" width="10" height="16" rx="3"/></g>
+  <rect x="58" y="110" width="24" height="4" fill="#ddd"/>
+  <g fill="#7cf0c4"><rect x="105" y="100" width="12" height="20" rx="3"/><rect x="140" y="100" width="12" height="20" rx="3"/></g>
+  <rect x="115" y="108" width="27" height="4" fill="#ddd"/>
+  <!-- пол -->
+  <rect y="198" width="400" height="62" fill="url(#floor)"/>
+  <g stroke="#4a2e1e" stroke-width="2" opacity=".5"><line x1="0" y1="220" x2="400" y2="220"/><line x1="0" y1="242" x2="400" y2="242"/></g>
+  <!-- помост и штанга -->
+  <rect x="150" y="205" width="200" height="14" rx="4" fill="#2a2550"/>
+  <rect x="160" y="190" width="180" height="6" rx="3" fill="#ddd"/>
+  <rect x="170" y="168" width="14" height="50" rx="4" fill="#ff5e62"/><rect x="316" y="168" width="14" height="50" rx="4" fill="#ff5e62"/>
+  <rect x="186" y="176" width="10" height="34" rx="3" fill="#ffb347"/><rect x="304" y="176" width="10" height="34" rx="3" fill="#ffb347"/>
+  <!-- мел в воздухе -->
+  <g fill="#fff" opacity=".6">
+    <circle cx="240" cy="160" r="3"><animate attributeName="cy" values="170;120" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="260" cy="150" r="2"><animate attributeName="cy" values="175;115" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="2.4s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
